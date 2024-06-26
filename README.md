@@ -29,20 +29,15 @@ Jdk 22 ou superior.
 IDE Eclipse.
 
 1. Importar o projeto:
-No Eclipse, vá para o menu File (Arquivo) > Open Projects from File System... (Abrir Projetos do Sistema de Arquivos).
+No Eclipse, vá para o menu File (Arquivo) > Import Projects > Git > Projects From Git > CloneUrl
+Cole a Url https://github.com/eduoasuos/sistematizacao.git
+user: eduoasuos
+password: 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
 
-Na janela que se abre, clique em Directory... (Diretório) e selecione a pasta que contém seu projeto Java. Certifique-se de selecionar a pasta raiz do projeto, onde estão os arquivos Employee.java, EmployeeManager.java e Main.java.
-
-Após selecionar a pasta correta, clique em Finish (Concluir).
-
-3. Verificar e configurar o projeto:
+2. Deixe selecionado a MainBranch Clique em Next e selecione o diretorio da clonagem e vá clicando em next.
+ 
 O Eclipse deve agora ter importado o projeto para a sua workspace.
 
-Certifique-se de que o projeto está configurado corretamente com o JDK apropriado:
-
-Clique com o botão direito no nome do projeto na aba Project Explorer (Explorador de Projetos) à esquerda.
-Vá para Build Path (Caminho de Compilação) > Configure Build Path... (Configurar Caminho de Compilação).
-Na aba Libraries (Bibliotecas), verifique se o JRE System Library está configurado corretamente para o JDK que você deseja usar. Se necessário, ajuste a configuração para o JDK desejado.
 4. Executar o projeto:
 Agora que o projeto está aberto no Eclipse e configurado corretamente, você pode executar a classe Main.java para testar o sistema:
 
